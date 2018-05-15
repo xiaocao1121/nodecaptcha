@@ -9,7 +9,7 @@ module.exports=async (ctx,next)=>{
     var vImage=new VerifyImage();
     vImage.init();
     var code=vImage.create();
-    ctx.app.debug('verify code is %o',code);
-    ctx.body=vImage.output();
+    //保存code 到session 以待使用
+    ctx.body=vImage.output();
 };
 </pre>
