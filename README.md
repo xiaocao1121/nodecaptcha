@@ -1,5 +1,6 @@
 # nodecaptcha
 pure nodejs captcha
+<pre>
 eg
 for koa 
 var VerifyImage=require("./index.js");
@@ -11,3 +12,4 @@ module.exports=async (ctx,next)=>{
     ctx.app.debug('verify code is %o',code);
     ctx.body=vImage.output();
 };
+</pre>
