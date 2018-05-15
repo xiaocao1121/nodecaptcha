@@ -1,8 +1,8 @@
 # nodecaptcha
 pure nodejs captcha
 <pre>
-eg
-for koa 
+//eg
+//for koa 
 var VerifyImage=require("./index.js");
 module.exports=async (ctx,next)=>{
     await next();
