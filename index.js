@@ -11,7 +11,7 @@ function VerifyImage(){
         offset = opts.offset || 20; //  偏移随机变化量
         border = opts.border || 1; //  边框大小
     }
-
+    /**创建验证码*/
     this.create=function(){
         const cCharSet = "123456789";
         var i, x, y ;
