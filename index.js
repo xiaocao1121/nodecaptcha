@@ -13,9 +13,6 @@ function VerifyImage(){
     }
     /**创建验证码*/
     this.create=function(){
-
-
-
         const cCharSet = "123456789";
         var i, x, y ;
         var vValidCode = "" ;
