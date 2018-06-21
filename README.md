@@ -2,7 +2,7 @@
 
 pure nodejs captcha
 -------
-<pre>
+```javascript
 //eg
 //for koa 
 var VerifyImage=require("./index.js");
@@ -28,4 +28,4 @@ var bf=img.output();
 fs.writeFile("code.gif",bf,function(){
     console.log('保存验证码图片到code.gif');
 });
-</pre>
+```
