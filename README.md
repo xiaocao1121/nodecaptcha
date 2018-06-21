@@ -1,5 +1,7 @@
 # nodecaptcha
-##pure nodejs captcha
+
+pure nodejs captcha
+-------
 <pre>
 //eg
 //for koa 
