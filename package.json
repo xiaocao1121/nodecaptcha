@@ -1,0 +1,23 @@
+{
+  "name": "nodecaptcha",
+  "version": "1.0.0",
+  "description": "a pure nodejs captcha",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaocao1121/nodecaptcha.git"
+  },
+  "keywords": [
+    "captcha",
+    "verifyimage"
+  ],
+  "author": "jack.wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaocao1121/nodecaptcha/issues"
+  },
+  "homepage": "https://github.com/xiaocao1121/nodecaptcha#readme"
+}
