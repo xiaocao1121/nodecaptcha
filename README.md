@@ -11,7 +11,7 @@ module.exports=async (ctx,next)=>{
     var vImage=new VerifyImage();
     vImage.init();
     var code=vImage.create();
-    //保存code 到session 以待使用
+    //保存code 到session 以待使用 output得到的是一个 Buffer
     ctx.body=vImage.output();
 };
 

@@ -1,5 +1,5 @@
 {
-  "name": "nodecaptcha",
+  "name": "node-pure-captcha",
   "version": "1.0.0",
   "description": "a pure nodejs captcha",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "captcha",
     "verifyimage"
   ],
-  "author": "jack.wang",
+  "author": "xiaocao1121<xiaocao1121@sina.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiaocao1121/nodecaptcha/issues"
